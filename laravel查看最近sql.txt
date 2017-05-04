@@ -1,0 +1,12 @@
+
+
+    //Laravel 5 中需要开启QueryLog
+    DB::connection()->enableQueryLog();
+    //这里为查询操作
+    print_r(DB::getQueryLog())
+
+也可以通过事件监听的方法来获取：
+
+    Event::listen('illuminate.query', function($query){
+        var_dump($query);
+    });
