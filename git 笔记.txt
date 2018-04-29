@@ -8,6 +8,6 @@ git tag v1.2
 git push origin v1.2
 把标签1.2推到服务器
 
-
+git commit
 git fetch origin tag v1.2 
 这样我们可以精准拉取指定的某一个版本.适用于运维同学部署指定版本.
