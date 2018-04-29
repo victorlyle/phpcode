@@ -17,9 +17,10 @@ git test this is test
 这样我们可以精准拉取指定的某一个版本.适用于运维同学部署指定版本.
 
 git status 查看git变化
-git pull 把远程仓库和本地合并比对
 git add . 把文件提交到缓存区
 git commit -m '测试git提交' 把git提交到本地仓库
-git push origin master 把git提交到远程仓库origin的master分支
+g
+git pull 把远程仓库和本地合并比对
+it push origin master 把git提交到远程仓库origin的master分支
 
 
